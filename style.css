@@ -1,0 +1,169 @@
+body,
+section,
+article,
+main,
+aside,
+footer,
+img,
+nav,
+ul,
+li,
+a,
+h1,
+h2,
+h3,
+div,
+p,
+figure,
+figcaption {
+
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: 100%;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    font-family: 'Inter';
+    background-color: #ebebeb;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    width: 1770px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px -15px rgba(0, 0, 0, 0.1);
+}
+
+div {
+
+    width: 10%;
+    margin: 30px 0 25px 130px;
+
+}
+
+header nav {
+
+    width: 100%;
+    margin: 0 auto
+}
+
+.cabecalho {
+
+    display: flex;
+
+}
+
+.item {
+
+    margin: 5px 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #585E65;
+
+}
+
+
+header button {
+
+    margin: 17px 148px 23px 0;
+    width: 145px;
+    height: 40px;
+    left: 1541px;
+    top: 17px;
+    color: white;
+    background: #4C6EF5;
+    border-radius: 4px;
+}
+
+
+ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    margin-left: 5px;
+
+}
+
+.produto {
+
+    width: 374px;
+    height: 500px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+
+}
+
+.produto_imagem {
+
+    width: 282px;
+    height: 207px;
+    left: 173px;
+    top: 157px;
+    margin: 43px 49px 46px 43px;
+
+}
+
+.produto_nome {
+
+    width: 335px;
+    height: 56px;
+    left: 151px;
+    top: 410px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.produto_preco {
+
+    width: 97px;
+    height: 28px;
+    left: 151px;
+    top: 486px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+    margin: 0 21px;
+}
+
+.produto_btn {
+
+    width: 335px;
+    height: 48px;
+    left: 151px;
+    top: 540px;
+    color: #fff;
+    background: #4C6EF5;
+    border: 1.5px solid #4C6EF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin: 26px 18px 26px 21px;
+}
